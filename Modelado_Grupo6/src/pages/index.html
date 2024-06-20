@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroCultura</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">AgroCultura</div>
+        <nav>
+            <ul>
+                <li><a href="#">Hogar</a></li>
+                <li><a href="#">MyCart</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
+                <li><a href="#">Mercado</a></li>
+                <li><a href="#">Digital</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>AgroCultura</h1>
+            <p>Su producto Nuestro mercado</p>
+            <div class="buttons">
+                <a href="#" class="btn" id="open-login">Iniciar sesión</a>
+                <a href="#" class="btn" id="open-register">Registro</a>  
+            </div>
+        </div>
+    </main>
+    <!-- Modal de Iniciar Sesión -->
+     
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close" id="close-login">&times;</span>
+            <h2>Iniciar sesión</h2>
+            <form>
+                <div class="user-box">
+                    <input type="text" name="" required="" placeholder="Nombre de usuario">
+                </div>
+                <div class="user-box">
+                    <input type="password" name="" required="" placeholder="Contraseña">
+                </div>
+                <button type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Iniciar sesión
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- Modal de Registro -->
+    <div class="modal" id="register-modal">
+        <div class="modal-content">
+            <span class="close" id="close-register">&times;</span>
+            <h2>Registro</h2>
+            <form>
+                <div class="user-box">
+                    <input type="text" name="nombre" required placeholder="Nombre">
+                </div>
+                <div class="user-box">
+                    <input type="text" name="username" required placeholder="Nombre de usuario">
+                </div>
+                <div class="user-box">
+                    <input type="tel" name="telefono" required placeholder="Número de teléfono móvil">
+                </div>
+                <div class="user-box">
+                    <input type="email" name="email" required placeholder="Correo electrónico">
+                </div>
+                <div class="user-box">
+                    <input type="password" name="password" required placeholder="Contraseña">
+                </div>
+                <div class="user-box">
+                    <input type="password" name="confirmPassword" required placeholder="Confirmar contraseña">
+                </div>
+                <div class="user-box">
+                    <input type="text" name="direccion" required placeholder="Dirección">
+                </div>
+                <button type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Registrar
+                </button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "jenssegers/mongodb": "^4.4",
+        "mongodb/mongodb": "^1.8"
+    }
+}
